@@ -12,6 +12,8 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
         
+        PrimaryNav: "var(--primaryNav)",
+
         Color1: "var(--Color1)",
         Color2: "var(--Color2)",
         Color3: "var(--Color3)",
