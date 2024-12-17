@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Navbar() {
   return (
-    <nav className="flex flex-row w-full p-2 bg-PrimaryNav text-white justify-between">
+    <nav className="flex flex-row w-full p-2 bg-PrimaryNav text-white justify-between sticky top-0">
       <div id="links" className="p-5">
         <ol className="flex flex-row font-bold gap-2">
           <li><a href="/prestasi">Prestasi</a></li>
@@ -17,6 +17,7 @@ export default function Navbar() {
         width="128"
         height="128"
         className=""
+        priority
       />
     </nav>
   );
