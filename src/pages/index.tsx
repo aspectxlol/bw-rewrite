@@ -6,7 +6,7 @@ export default function Home() {
       className={``}
     >
       <Image
-        src="/assets/Hero-Image.jpg"
+        src="/assets/Hero-image.jpg"
         alt="Hero Image"
         width={1920}
         height={500}
