@@ -1,5 +1,7 @@
 import Image from 'next/image'
 import Stat from "@bw/components/Stat";
+import Articles from "@bw/components/Articles";
+import 'react-multi-carousel/lib/styles.css'
 
 export default function Home() {
   return (
@@ -29,6 +31,14 @@ export default function Home() {
           <Stat title={"Siswa"} metric={"Binaan"} value={"2377"}/>
         </div>
       </section>
+      <section id={'article'} className={"h-1/4 relative flex flex-col p-10"}>
+        <h1 className={"font-bold text-5xl"}>Berita Terbaru</h1>
+        <div className={"w-full justify-center"}>
+          <Articles/>
+        </div>
+      </section>
+
+
     </div>
   );
 }
