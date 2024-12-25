@@ -9,7 +9,7 @@ export default function Stat({ title, metric, value }: { title: string, metric: 
                 <h1>{metric}</h1>
             </div>
         </div>
-        <div className={"text-2xl font-bold relative -top-1 ml-5"}>{title}</div>
+        <div className={"text-sm sm:text-xl font-bold relative -top-1 ml-5"}>{title}</div>
     </div>
   )
 }

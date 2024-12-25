@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer className={"bg-gray-300"}>
-        <div className={"flex flex-row gap-20 p-10"}>
+        <div className={"grid grid-cols-2 gap-20 p-10"}>
             <div className={"flex flex-col"}>
                 <h1 className={"font-bold text-2xl"}>Sekolah Strada</h1>
                 <p>Jl. Gunung Sahari Raya No. 88, Jakarta Pusat 10610</p>
@@ -17,7 +17,7 @@ export default function Footer() {
                     <li>Louie Hansen (Developer)</li>
                     <li>Raymond Alexander (Designer, Developer)</li>
                     <li>Dustin Alexander (Designer)</li>
-                    <li>Jeremia (Photographer)</li>
+                    <li>Jeremia, dkk (Photographer)</li>
                 </ul>
             </div>
             <div>

@@ -9,10 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "embla-carousel-react": "^8.5.1",
     "next": "15.1.0",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-multi-carousel": "^2.8.5"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "typescript": "^5",
