@@ -1,5 +1,8 @@
 import Navbar from "@bw/components/Navbar";
 import "@bw/styles/globals.css";
+import "@bw/styles/embla.css"
+import "@bw/styles/base.css"
+
 import type { AppProps } from "next/app";
 import Footer from "@bw/components/Footer";
 

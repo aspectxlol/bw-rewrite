@@ -1,8 +1,6 @@
 import Image from 'next/image'
 import Stat from "@bw/components/Stat";
 import Articles from "@bw/components/Articles";
-import '@bw/styles/embla.css'
-import '@bw/styles/base.css'
 
 export default function Home() {
   return (

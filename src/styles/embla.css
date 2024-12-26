@@ -4,10 +4,16 @@
 .embla__container {
     display: flex;
 }
+
 .embla__slide {
-    flex: 0 0 18%;
-    min-width: 0;
+    margin-right: 10px; /* Default slide gap */
 }
+@media (min-width: 768px) {
+    .embla__slide {
+        margin-right: 20px; /* Breakpoint SM gap */
+    }
+}
+
 
 .embla__slide__number {
     box-shadow: inset 0 0 0 0.2rem var(--detail-medium-contrast);
